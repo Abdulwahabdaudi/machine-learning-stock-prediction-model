@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock prediction</title>
+</head>
+
+<body>
+    <h1>stock prediction</h1>
+    <div class="form">
+        <form action="/prediction/" method="POST">
+            <label for="open">open</label>
+            <input type="number"  name="Open" required>
+            <label for="high">high</label>
+            <input type="number"  name="High" required>
+            <label for="low">low</label>
+            <input type="number"  name="Low" required>
+            <label for="voleme">volume</label>
+            <input type="number"  name="Volume" required>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
